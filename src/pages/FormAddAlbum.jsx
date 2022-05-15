@@ -47,8 +47,8 @@ export function FormAddAlbum() {
 		<>
 			{isVisible ? <Alert text={textAlert} closeAlert={() => setIsVisible(false)} /> : null}
 
-			<div className="w-full h-screen flex justify-center mt-6">
-				<div className="lg:w-2/4 sm:w-[95%] h-3/4 text-black">
+			<div className="w-full h-screen flex justify-center lg:mt-6 sm:mt-0">
+				<div className="lg:w-2/4 sm:w-[95%] lg:h-3/4 sm:h-full text-black">
 
 					<Nav title="Novo album" />
 

@@ -53,8 +53,8 @@ export class Discografia extends Component {
         let { albumList } = this.state
 
         return (
-            <div className="w-full h-screen flex justify-center mt-6">
-                <div className="lg:w-2/4 sm:w-[95%] h-3/4 text-black">
+            <div className="w-full h-screen flex justify-center lg:mt-6 sm:mt-0">
+                <div className="lg:w-2/4 sm:w-[95%] lg:h-3/4 sm:h-full text-black">
                     <Nav title="Discografia" />
                     <div className="bg-[#ffffffa6] h-full">
 
